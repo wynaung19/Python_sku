@@ -14,6 +14,5 @@ b = 3.15e5
 
 print(a,b)
 
-
 a,b = 9,2
 print(a**b,a%b,a//b)
