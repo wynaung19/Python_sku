@@ -10,6 +10,7 @@ if sel == 8:
 if sel == 2:
     num10 = int(num,2)
 
+
 print("16 ==> ",hex(num10))
 print("10 ==> ",num10)
 print("8  ==> ",oct(num10))
