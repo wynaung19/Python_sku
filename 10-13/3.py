@@ -24,3 +24,22 @@ while True:
     print('\n')
 for i in scores:
     print(i[2],":",i[1],":",i[0])
+
+a,b,c,d,f = 0,0,0,0,0
+for i in scores:
+    if i[2] == "A":
+        a+=1
+    if i[2] == "B":
+        b+=1
+    if i[2] == "C":
+        c+=1
+    if i[2] == "D":
+        d+=1
+    if i[2] == "F":
+        f+=1
+
+print("\nA : ",a)
+print("B : ",b)
+print("C : ",c)
+print("D : ",d)
+print("F : ",f)
