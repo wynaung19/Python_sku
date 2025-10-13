@@ -8,3 +8,5 @@ while True:
         print("Even")
     else:
         print("ODD")
+
+print('END')
