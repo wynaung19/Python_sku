@@ -20,5 +20,4 @@ for i in range(100):
         t.pencolor('blue')
     #t.forward(3)
     t.circle(i*2)
-
 t.done()
