@@ -2,7 +2,7 @@ scores = []
 name,score,grade = '',0,'A'
 while True:
     
-    score = int(input("Score : "))
+    score = int(input("Enter more than 100 or less than 0 to exit.\nScore : "))
 
     if score > 100 or score < 0:
         print("END")
@@ -21,6 +21,6 @@ while True:
         grade = 'F'
 
     scores.append([name,score,grade])
-
+    print('\n')
 for i in scores:
-    print(i[0],":",i[1],":",i[2])
+    print(i[2],":",i[1],":",i[0])
