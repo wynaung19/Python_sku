@@ -21,6 +21,7 @@ while True:
         grade = 'F'
 
     scores.append([name,score,grade])
+    
     print('\n')
 for i in scores:
     print(i[2],":",i[1],":",i[0])
