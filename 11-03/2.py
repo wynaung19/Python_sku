@@ -1,8 +1,9 @@
 a = []
 hap = 0
-
+i=0
 while True:
-    n = int(input("Enter number : "))
+    i+=1
+    n = int(input("Enter number "+str(i)+" : "))
     if n == 0:
         break
     a.append(n)
