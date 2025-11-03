@@ -1,3 +1,3 @@
-#Python - Sungkyul University
-###Wai Yan Naung
+# Python - Sungkyul University
+### Wai Yan Naung
 ---
