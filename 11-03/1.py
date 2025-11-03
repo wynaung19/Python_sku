@@ -6,3 +6,4 @@ for i in a:
     hap+=a[i]
 
 print("Total : ", hap)
+print("Avg : ", hap/len(a))
