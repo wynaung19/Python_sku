@@ -1,6 +1,6 @@
 em = "email"
 s = {'name':"WaiYanNaung",'id':20251310,em:'w@wyn.onl'}
-s2 = {'name':'Hsu Wai','id':20291310,em:'gf@waiyannaung.com'}
+s2 = {'name':'Hsu Wai','id':20291310,em:'a@a.com'}
 
 print(s['name'])
 print(s['email'])
