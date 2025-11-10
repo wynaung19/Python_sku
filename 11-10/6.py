@@ -14,3 +14,19 @@ tupList = list(zip(foods,sides))
 dic = dict(zip(foods,sides))
 print(tupList)
 print(dic)
+
+old = ['a','b','c']
+nwl = old
+print(nwl)
+old[0] = 'aa'
+old.append('zz')
+print(nwl)
+
+
+o = ['a','b','c']
+n = o[:]
+
+print(n)
+o[0] = 'zz'
+o.append('q')
+print(n)
