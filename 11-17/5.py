@@ -1,12 +1,15 @@
-# GLOBAL
-x = 20
-def a():
-    #global x #Loc -> global (Can't assign value here)
-    # LOCAL
-    x=10
-    print("a",x)
-def b():
-    print("b",x)
+def mul(a,b):
+    rl=[]
+    r1=a+b
+    r2=a-b
+    rl.append(r1)
+    rl.append(r2)
+    return rl
 
-a()
-b()
+ml = []
+hap,sub = 0,0
+
+ml = mul(100,200)
+hap = ml[0]
+sub = ml[1]
+print("hap : %d , sub = %d" % (hap,sub))
